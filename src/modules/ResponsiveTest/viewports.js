@@ -1,0 +1,80 @@
+export const viewports = [
+  {
+    selector: "1440x900",
+    name: "Laptop with HiDPI Screen",
+    width: "1440",
+    height: "900",
+  },
+  {
+    selector: "1280x800",
+    name: "Laptop with MiDPI Screen",
+    width: "1280",
+    height: "800",
+  },
+  {
+    selector: "1024x1366",
+    name: "iPad Pro",
+    width: "1024",
+    height: "1366",
+  },
+  {
+    selector: "768x1024",
+    name: "iPad Portrait",
+    width: "768",
+    height: "1024",
+  },
+  {
+    selector: "1024x768",
+    name: "iPad Landscape",
+    width: "1024",
+    height: "768",
+  },
+  {
+    selector: "360x640",
+    name: "Moto G4",
+    width: "360",
+    height: "640",
+  },
+  {
+    selector: "360x640",
+    name: "Galaxy S5",
+    width: "360",
+    height: "640",
+  },
+  {
+    selector: "411x731",
+    name: "Pixel 2",
+    width: "411",
+    height: "731",
+  },
+  {
+    selector: "411x823",
+    name: "Pixel 2XL",
+    width: "411",
+    height: "823",
+  },
+  {
+    selector: "320x568",
+    name: "iPhone 5/SE",
+    width: "320",
+    height: "568",
+  },
+  {
+    selector: "375x667",
+    name: "iPhone 6/7/8",
+    width: "375",
+    height: "667",
+  },
+  {
+    selector: "414x736",
+    name: "iPhone 6/7/8 Plus",
+    width: "414",
+    height: "736",
+  },
+  {
+    selector: "375x812",
+    name: "iPhone X",
+    width: "375",
+    height: "812",
+  },
+]

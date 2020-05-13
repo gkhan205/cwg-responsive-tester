@@ -1,13 +1,62 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-black-color: #292826;
+  --main-yellow-color: #f9d342;
+}
+
+a {
+  color: var(--main-black-color) !important;
+  text-decoration: underline !important;
+}
+
+header .navbar .navbar-brand {
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer .navbar {
+  background-color: black;
+}
+
+footer .navbar p {
+  color: white;
+}
+
+footer .navbar p span {
+  margin: 0 6px;
+}
+
+footer .navbar .footer-love {
+  margin: 0;
+  color: red;
+}
+
+footer .navbar a {
+  color: white !important;
+}
+
+.donate-button {
+  background-color: #f9d342;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none !important;
 }

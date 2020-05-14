@@ -1,4 +1,5 @@
 import React, { Component, createRef } from "react";
+import ReactGA from "react-ga";
 
 import { viewports } from "./viewports";
 import "./responsiveTest.css";
@@ -21,6 +22,10 @@ export default class ResponsiveTest extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.setState({ setUrlToIframe: this.state.url });
+    ReactGA.event({
+      category: "click",
+      action: "Inspect Clicked",
+    });
   };
 
   handleViewportChange = (event) => {
